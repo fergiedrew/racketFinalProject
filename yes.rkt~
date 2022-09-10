@@ -22,14 +22,14 @@
 ; dy is the speed in the y direction
 
 
-(define BACKGROUND1 (bitmap "Graphics/cg1.png"))
-(define BACKGROUND2 (bitmap "Graphics/bg2.png"))
-(define BACKGROUND3 (bitmap "Graphics/bg3.png"))
-(define PERSON (scale .07 (bitmap "Graphics/googlefallyboy.png")))
+(define BACKGROUND1 .)
+(define BACKGROUND2 . )
+(define BACKGROUND3 .)
+(define PERSON (scale .07 .))
 
-(define ROCK (bitmap "Graphics/rock.png"))
-(define LASER (bitmap "Graphics/bullet.png"))
-(define TIME (bitmap "Graphics/time.png"))
+(define ROCK .)
+(define LASER .)
+(define TIME .)
 (define initial-Worldstate (make-WS (make-person 400 100 7 "none") empty 0 empty 1 0))
 
 ; Updates the worldstate's lobstacles with the lobstacles in the function
